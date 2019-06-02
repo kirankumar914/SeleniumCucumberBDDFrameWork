@@ -1,0 +1,148 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 295924,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHookStepDefination.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 145396,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHookStepDefination.setUP1()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "free scenario login test",
+        "description": "",
+        "id": "free-crm-login-feature;free-scenario-login-test;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 951631,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHookStepDefination.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 668822,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHookStepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14577968459,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is already available loginpage.",
+            "match": {
+              "location": "LoginPageStepDefination.user_is_already_on_loginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8938718,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "title of the login page is Free CRM.",
+            "match": {
+              "location": "LoginPageStepDefination.titile_of_the_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 251961563,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enetrs login deatils i.e. \"kiranautomation\" and \"test@123\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kiranautomation",
+                  "offset": 32
+                },
+                {
+                  "val": "test@123",
+                  "offset": 54
+                }
+              ],
+              "location": "LoginPageStepDefination.user_enetrs_login_deatils_i_e_username_and_passwrod(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5530317345,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on submit button.",
+            "match": {
+              "location": "LoginPageStepDefination.user_clicks_on_submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4382406,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user is in HomePage.",
+            "match": {
+              "location": "LoginPageStepDefination.user_is_in_HomePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2264312810,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "close the browser.",
+            "match": {
+              "location": "LoginPageStepDefination.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM login feature",
+    "description": "",
+    "id": "free-crm-login-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/NAVYA/eclipse-workspace/com.qa.bddframework/src/main/java/Features/login.feature"
+  }
+]
